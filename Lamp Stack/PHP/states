@@ -1,0 +1,50 @@
+<?php
+
+$states = array('CA','WA','VA','UT','AZ');
+
+echo '<select>';
+
+for ($i=0; $i < count($states); $i++) { 
+	echo '<option>' . $states[$i] . '</option>';
+	}
+echo '</select>';
+
+echo '<br>' . '</br>';
+
+echo '<select>';
+
+foreach($states as $keys){
+	echo '<option>' . $keys . '</option>';
+}
+
+echo '</select>';
+
+echo '<br>' . '</br>';
+
+array_push($states,'NJ','NY','DE');
+echo '<select>';
+
+
+foreach($states as $keys){
+	echo '<option>' . $keys . '</option>';
+	
+}
+
+echo '</select>';
+
+echo '<br>' . '</br>';
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+?>

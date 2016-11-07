@@ -1,0 +1,32 @@
+<?php
+
+	$a = array(2,3,10,16);
+
+	
+	function multiply($array,$num){
+		
+		
+
+		for($i=0;$i<count($array); $i++){
+
+		
+		$array[$i]*=$num;
+			
+
+		}
+
+	print_r($array);
+
+		  
+	}	  
+		
+
+multiply($a,5);
+	
+
+	
+
+
+ 	
+ 	
+?>

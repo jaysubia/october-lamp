@@ -1,0 +1,17 @@
+<?php
+
+
+
+$users = array("first_name" => "Micheal", "last_name" => "Choi");
+
+$first = "The value in the key"  "is " . $users["first_name"] . ".";
+$last = "The value in the key 'last_name' is " . $users["last_name"] . ".";
+$begin = "There are " . count($users) . " keys in this array: <br>" . "first_name <br>" . "last_name <br>";
+
+echo $begin . $first . '<br>' .$last;
+
+
+
+
+
+?>

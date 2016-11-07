@@ -1,0 +1,16 @@
+<?php
+
+	for($i=1;$i<2000;$i++){
+		if($i%2===0){
+			echo "Number is " . $i . " This is and even number. <br> ";
+		}
+		if($i%2!==0){
+			echo "Number is " . $i . " This is and odd number. <br> ";
+
+		}
+	}
+
+
+ 	
+ 	
+?>

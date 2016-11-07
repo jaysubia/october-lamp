@@ -1,0 +1,9 @@
+<?php
+	$sum=0;
+	$a = array(1, 2, 5, 10, 255, 3);
+ 	
+ 	$sum=array_sum($a) / count($a);
+
+	echo "Average of all value in array" . var_dump($sum);
+	echo "Average: ". $sum;
+?>
